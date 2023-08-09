@@ -8,7 +8,7 @@
         transform: none !important;
     }
 }
-@media(max-width:1000)  {
+@media(max-width:1000x)  {
     .cont{ width: 100%;
         overflow-x:hidden;}
  }
@@ -281,7 +281,36 @@ header ::after {
 .contacts5{
     text-align: center;
 }
+/*
+#question2{
+    text-align: center;
+    color: #FDFEFF;
+}
+#question2 p{
+    padding: 40px;
+}
+.question2-left{
+    background-color: gray;
+    border-radius: 20px;
+    justify-content: start;
+    margin-left: 200px;
+    margin-right: 100px;
 
+}
+.question2-right{
+    background-color: 	#333333;
+    border-radius: 15px;
+    justify-content: end;
+    margin-right: 200px;
+    margin-left: 100px;
+
+}
+#question2 h1{
+    color: #FFFDD0;
+    margin-top: 50px;
+    padding-top:20px;
+}
+*/
 #opportunities h1{
     text-align: center;
 
@@ -363,6 +392,118 @@ header ::after {
     color: red;
     
 }
+/*
+.opportunities-left .wrap{
+    height: 800px;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 0 !important;
+    margin-left: 30px;
+    margin: 0 !important;
+    height: 800px;
+    width: auto;
+    background-color: black;
+    border-radius:20px;
+}
+.opportunities-left .inside{
+    position: relative;
+    height: 800px !important;
+    width: auto;
+}
+.opportunities-left .hover-me{
+    position: relative;
+    height: 800px;
+    width: auto;
+}
+
+*/
+/*
+.opportunities-left .wrap{
+    text-align: center;
+    color: white;
+    padding: 0 !important;
+    margin-left: 30px;
+    margin: 0 !important;
+    height: 800px;
+    width: auto;
+    background-color: black;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    transition: all ease-in-out 750ms;
+}
+.opportunities-left .wrap:hover{
+    font-size: 0;
+}
+.opportunities-left .wrap:hover::after{
+    content: attr(data-hover);
+    font-size: 20px;
+    color: lime;
+    text-align: center;
+}
+
+.opportunities-right{
+    margin-left: 20px;
+}
+.opportunities-right .wrap{
+    text-align: center;
+    color: white;
+    padding: 0 !important;
+    margin-left: 30px;
+    margin: 0 !important;
+    height: 800px;
+    width: auto;
+    background-color: black;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    transition: all ease-in-out 750ms;
+}
+.opportunities-right .wrap:hover{
+    font-size: 0;
+}
+.opportunities-right .wrap:hover::after{
+    content: attr(data-hover);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+*/
+
+
+/*
+.opportunities-left p{
+    color:#FDFEFF;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.opportunities-right .container{
+    height:800px ;
+    width: 450px;
+    background-color: black;
+
+}
+.opportunities-right #wrap{
+    height:800px ;
+    width: 450px;
+    background-color: black;    
+}
+.opportunities-right #inside {
+    opacity:100;
+}
+.hover-me{
+    font-size: 30px; ;
+    
+}
+*/
 
 .opportunities-left{
     margin-top: 50px;
@@ -435,3 +576,5 @@ header ::after {
 
 
 
+
+/* #212121*/

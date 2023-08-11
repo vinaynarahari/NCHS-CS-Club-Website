@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-   
+    <script src="main.js"></script>
         
     <title >NCHS CS Club</title>
 </head>
@@ -41,6 +41,53 @@
           </div>
         </section>
 
+        <section id="imgslide">
+          <h1 style="margin: 0 auto; text-align:center; padding:  15vh 0; color: red;">CS Club Spotlight</h1>
+          <!-- image slider section -->
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radbtn" id="rad1" />
+              <input type="radio" name="radbtn" id="rad2" />
+              <input type="radio" name="radbtn" id="rad3" />
+              <input type="radio" name="radbtn" id="rad4" />
+    
+              <div class="slide first">
+                <div style="color: red; padding: 0 80px; font-size: 20px; text-align: center;" id="text-demo">Demo of the infinite campus SOAR project. Meant to automate the process of filling in students so that Mrs. McFadden doesn't have to spend hours manually putting each student in a SOAR. </div>
+
+                <img src="icproject_demo.PNG" style="object-fit: contain;" alt="" />
+              </div>
+              <div class="slide"  >
+                <div style="color: red; padding: 0 80px; font-size: 20px; text-align: center;" id="text-demo">Prototype login page for the Merry Tutor members 501(c)(3). This project will allow tutors to enter their tutoring data into a system that will allow the data manager to be able to easily track tutoring hours and tutoring trends for the organization. </div>
+
+                <img style="object-fit:contain;" src="merrytutordemo.png" />
+              </div>
+              <div class="slide"  >
+                <div style="color: red; padding: 0 80px; font-size: 20px; text-align: center;" id="text-demo">Image of programming competition between CS Club and the Neuqua Valley Computing Team. Participants had to solve a variety of different coding prompts from easy to hard in order to win to prizes and bragging rights over the other club.</div>                <img style="object-fit:contain;" src="neuquacomp.jpeg" />
+              </div>
+              <div class="slide"  >
+                <div style="color: red; padding: 0 80px; font-size: 20px; text-align: center;" id="text-demo">Image of CS Club's infiltration of the Naperville North Robotics club :)</div>
+                <img style="object-fit:contain;" src="IMG_4208.jpg" />
+              </div>
+    
+              <div class="autonav">
+                <!-- system for auto navigation -->
+                <div class="auto1"></div>
+                <div class="auto2"></div>
+                <div class="auto3"></div>
+                <div class="auto4"></div>
+              </div>
+    
+              <div class="mannav">
+                <!-- for manual navigation -->
+                <label for="rad1" class="manual"></label>
+                <label for="rad2" class="manual"></label>
+                <label for="rad3" class="manual"></label>
+                <label for="rad4" class="manual"></label>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         
 
@@ -49,14 +96,14 @@
         <div class="wrapper" style="color: white;">
           <div id ="testing2">
             <div class ="question1-top" >
-              <h1>What Does CS Club Do?</h1>
-              <p class = "temp-text" style="font-size:25px ;">
+              <h1 style="margin: 0 auto;">What Does CS Club Do?</h1>
+              <p class = "temp-text" style="font-size:25px ; margin: 0 auto;padding-top: 40px;">
                 CS Club provides a space for students to <b> have a personalized space for programming</b>! We provide students with workshops that are <b>student led</b> and give members the opportunity to have <b>tutoring on a given topic.</b> We also provide students with <b>coding prompts ranging from easy to hard</b>. By doing coding prompts, students enter a raffle where they can win <b>different tech related prizes</b>!
                 </p>
             </div>
           
           <div class ="questionbottom">
-            <h1>Contacts</h1>
+            <h1 style="margin: 0 auto;">Contacts</h1>
               <div class="contacts5">
                <p>Please feel free to reach out to us! Email, discord, and remind are the fastest ways to receive the fastest response. Here are some contacts to refer to:</p>
                 <div  id = "emails">
@@ -69,7 +116,7 @@
           </div>
         </div>
         <div id="cred4">
-          <h1>Club Details</h1>
+          <h1 style="margin: 0 auto;">Club Details</h1>
             <div id="det">
               <h3 style="font-size:30px; margin-bottom: -20px;">When do we meet?</h3> <p style="font-size: 25px;">Every week on Monday and Tuesday morning</p> <h3 style="font-size:30px; margin-bottom: -30px"> What room?</h3> <p style="font-size: 30px;"> CS Club meets at room 46 </p> <h3>What workshops/projects is CS Club currently involved in?</h3> <p> Python, Data Analysis, AI, Flutter (app dev), a project that helps the school with SOAR automation, and a project based on running /maintaining the Central Times App</p> <h3> Can CS Club  work be done asynchronously?</h3> <p>Yes! Our projects as well our workshops (with some exception) can be done asynchronously or as instructed by the tutor.</p>
               <h3>Do you need experience to join?</h3> <p>No! You can join CS Club regardless of skill level because we have offerings that appeal to beginners, intermediate, and even advanced coders.</p>
@@ -83,10 +130,10 @@
 
       
         <section id="contact" >
-          <div id="left"class="row">
-            <div id ="col"  class="col-lg-12 col-lg-12">
+          <div id="left"class="row" style="margin: 0 auto;">
+            <div id ="col"  class="col-lg-12 col-lg-12" style="padding:0; margin: 0 auto; width: 100%;">
               <div id = "socials" class ="contact-left">
-                <h2 style="color: white;">Socials:</h2>
+                <h2 style="color: white; margin: 0 auto;">Socials:</h2>
                 <a href ="https://discord.gg/JNnwJBwnJM">
                   <img id = "img1" src ="discIcon.png" >
                 </a>
